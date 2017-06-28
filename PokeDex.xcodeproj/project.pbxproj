@@ -11,6 +11,7 @@
 		2B232BCF1F03DCE500BD061F /* Odin-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B232BCE1F03DCE500BD061F /* Odin-Rounded-Bold.otf */; };
 		2B232BD11F03DEB700BD061F /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B232BD01F03DEB700BD061F /* music.png */; };
 		2B232BD31F03DEED00BD061F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B232BD21F03DEED00BD061F /* music.mp3 */; };
+		2B8A22211F0441C800E45686 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A22201F0441C800E45686 /* PokemonDetailVC.swift */; };
 		2BDB633F1F03296D00EEEECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDB633E1F03296D00EEEECE /* AppDelegate.swift */; };
 		2BDB63411F03296D00EEEECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDB63401F03296D00EEEECE /* ViewController.swift */; };
 		2BDB63441F03296D00EEEECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB63421F03296D00EEEECE /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		2B232BCE1F03DCE500BD061F /* Odin-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Odin-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		2B232BD01F03DEB700BD061F /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		2B232BD21F03DEED00BD061F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		2B8A22201F0441C800E45686 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		2BDB633B1F03296D00EEEECE /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDB633E1F03296D00EEEECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDB63401F03296D00EEEECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				2BDB63401F03296D00EEEECE /* ViewController.swift */,
+				2B8A22201F0441C800E45686 /* PokemonDetailVC.swift */,
 			);
 			name = Controler;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				2BDB63591F033CCD00EEEECE /* PokeCell.swift in Sources */,
 				2BDB63411F03296D00EEEECE /* ViewController.swift in Sources */,
 				2BDB633F1F03296D00EEEECE /* AppDelegate.swift in Sources */,
+				2B8A22211F0441C800E45686 /* PokemonDetailVC.swift in Sources */,
 				2BDB63541F03310C00EEEECE /* Pokemon.swift in Sources */,
 				2BDB635B1F03493800EEEECE /* csv.swift in Sources */,
 			);
