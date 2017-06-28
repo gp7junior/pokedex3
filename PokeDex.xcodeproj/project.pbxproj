@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B232BCA1F03D47B00BD061F /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B232BC91F03D47B00BD061F /* pokemon.ttf */; };
+		2B232BCF1F03DCE500BD061F /* Odin-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B232BCE1F03DCE500BD061F /* Odin-Rounded-Bold.otf */; };
+		2B232BD11F03DEB700BD061F /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B232BD01F03DEB700BD061F /* music.png */; };
+		2B232BD31F03DEED00BD061F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B232BD21F03DEED00BD061F /* music.mp3 */; };
 		2BDB633F1F03296D00EEEECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDB633E1F03296D00EEEECE /* AppDelegate.swift */; };
 		2BDB63411F03296D00EEEECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDB63401F03296D00EEEECE /* ViewController.swift */; };
 		2BDB63441F03296D00EEEECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB63421F03296D00EEEECE /* Main.storyboard */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B232BC91F03D47B00BD061F /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		2B232BCE1F03DCE500BD061F /* Odin-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Odin-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		2B232BD01F03DEB700BD061F /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		2B232BD21F03DEED00BD061F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		2BDB633B1F03296D00EEEECE /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDB633E1F03296D00EEEECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDB63401F03296D00EEEECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B232BCB1F03D4AF00BD061F /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				2BDB63401F03296D00EEEECE /* ViewController.swift */,
+			);
+			name = Controler;
+			sourceTree = "<group>";
+		};
+		2B232BCC1F03D4C000BD061F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B232BD01F03DEB700BD061F /* music.png */,
+				2B232BCE1F03DCE500BD061F /* Odin-Rounded-Bold.otf */,
+				2BDB63551F033A2C00EEEECE /* arial-rounded-mt-bold.ttf */,
+				2B232BC91F03D47B00BD061F /* pokemon.ttf */,
+				2B232BD21F03DEED00BD061F /* music.mp3 */,
+				2BDB63501F032FB200EEEECE /* pokemon.csv */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B232BCD1F03D55500BD061F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2BDB635A1F03493800EEEECE /* csv.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		2BDB63321F03296D00EEEECE = {
 			isa = PBXGroup;
 			children = (
@@ -64,15 +101,14 @@
 		2BDB633D1F03296D00EEEECE /* PokeDex */ = {
 			isa = PBXGroup;
 			children = (
-				2BDB63571F033C8F00EEEECE /* View */,
 				2BDB63521F0330E100EEEECE /* Model */,
+				2BDB63571F033C8F00EEEECE /* View */,
+				2B232BCB1F03D4AF00BD061F /* Controler */,
+				2B232BCC1F03D4C000BD061F /* Resources */,
+				2B232BCD1F03D55500BD061F /* Util */,
 				2BDB633E1F03296D00EEEECE /* AppDelegate.swift */,
-				2BDB635A1F03493800EEEECE /* csv.swift */,
-				2BDB63401F03296D00EEEECE /* ViewController.swift */,
 				2BDB63421F03296D00EEEECE /* Main.storyboard */,
 				2BDB63451F03296D00EEEECE /* Assets.xcassets */,
-				2BDB63501F032FB200EEEECE /* pokemon.csv */,
-				2BDB63551F033A2C00EEEECE /* arial-rounded-mt-bold.ttf */,
 				2BDB63471F03296D00EEEECE /* LaunchScreen.storyboard */,
 				2BDB634A1F03296D00EEEECE /* Info.plist */,
 			);
@@ -157,8 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDB63491F03296D00EEEECE /* LaunchScreen.storyboard in Resources */,
+				2B232BCF1F03DCE500BD061F /* Odin-Rounded-Bold.otf in Resources */,
+				2B232BD31F03DEED00BD061F /* music.mp3 in Resources */,
 				2BDB63561F033A2C00EEEECE /* arial-rounded-mt-bold.ttf in Resources */,
 				2BDB63461F03296D00EEEECE /* Assets.xcassets in Resources */,
+				2B232BCA1F03D47B00BD061F /* pokemon.ttf in Resources */,
+				2B232BD11F03DEB700BD061F /* music.png in Resources */,
 				2BDB63511F032FB200EEEECE /* pokemon.csv in Resources */,
 				2BDB63441F03296D00EEEECE /* Main.storyboard in Resources */,
 			);
@@ -343,6 +383,7 @@
 				2BDB634F1F03296D00EEEECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

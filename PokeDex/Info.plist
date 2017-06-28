@@ -39,6 +39,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>arial-rounded-mt-bold.ttf</string>
+		<string>pokemon.ttf</string>
+		<string>Odin-Rounded-Bold.otf</string>
 	</array>
 </dict>
 </plist>
