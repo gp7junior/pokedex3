@@ -36,5 +36,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>arial-rounded-mt-bold.ttf</string>
+	</array>
 </dict>
 </plist>
